@@ -1,0 +1,875 @@
+.banner{
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.banner_1 {
+    background-image: url(/assets/img/banner.jpg);
+}
+
+.banner_2 {
+    background-image: url(/assets/img/banner_2.jpg);
+}
+
+.banner_3 {
+    background-image: url(/assets/img/banner_3.jpg);
+}
+.posicionamento-banner{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+.conteudo-banner {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.conteudo-banner-2 {
+    display: none;
+}
+
+
+.conteudo-banner-2 h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.conteudo-banner-2 a{
+    margin-top: 15px;
+    color: black;
+    background-color: #EA7911;
+    padding: 5px;
+    width: 125px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.conteudo-banner h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.conteudo-banner a{
+    margin-top: 15px;
+    color: black;
+    background-color: #EA7911;
+    padding: 5px;
+    width: 125px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.ofertas{
+    background-color: #030002;
+    height: 50px;
+    filter: contrast(95%);
+}
+.texto-ofertas{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+    font-size: 20px;
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.cor-conteudo-ofertas{
+    background-color: black;
+    height: 350px;
+}
+
+.conteudo-ofertas{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.eletronicos-produto-1{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.eletronicos-produto-2{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+.eletronicos-produto-3{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.eletronicos-produto-4{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+.eletronicos-produto-5{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.hardware-produto-1{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.hardware-produto-2{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.hardware-produto-3{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+.hardware-produto-4{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+.hardware-produto-5{
+    width: 265px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+a{
+    text-decoration: none;
+}
+
+.descriçao{
+    color: white;
+    font-size: 12px;
+    font-family: "Open Sans";
+    margin-top: 11px;    
+}
+
+.eletronicos-produto-1 img{
+    width: 200px;
+    height: 130px;
+}
+
+.eletronicos-produto-2 img{
+    width: 200px;
+    height: 130px;
+}
+
+.eletronicos-produto-3 img{
+    width: 200px;
+    height: 130px;
+}
+
+.eletronicos-produto-4 img{
+    width: 200px;
+    height: 130px;
+}
+
+.eletronicos-produto-5 img{
+    width: 166.8px;
+    height: 130px;
+
+}
+.hardware-produto-1 img{
+    width: 200px;
+    height: 130px;
+}
+
+.hardware-produto-2 img{
+    width: 192.59px;
+    height: 130px;
+}
+
+.hardware-produto-3 img{
+    width: 200px;
+    height: 130px;
+}
+
+.hardware-produto-4 img{
+    width: 200px;
+    height: 130px;
+}
+
+.hardware-produto-5 img{
+    width: 200px;
+    height: 130px;
+}
+
+.eletronicos-preço-1{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.eletronicos-preço-2{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+
+.eletronicos-preço-3{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.eletronicos-preço-4{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.eletronicos-preço-5{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.eletronicos-preço-6{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.eletronicos-preço-7{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.eletronicos-preço-8{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.eletronicos-preço-9{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.eletronicos-preço-10{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.hardware-preço-1{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.hardware-preço-2{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+
+.hardware-preço-3{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.hardware-preço-4{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.hardware-preço-5{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.hardware-preço-6{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.hardware-preço-7{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.hardware-preço-8{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.hardware-preço-9{
+    color: #F90404;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-decoration:line-through black;
+}
+
+.hardware-preço-10{
+    color: #0DDE3B;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+.banner-2{
+    background-color: #030002;
+    height: 715px;
+    filter:contrast(110%)
+}
+
+.banner-2{
+    height: 715px;
+    background-image: url(/assets/img/banner-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+.posicionamento-banner-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.posicionamento-banner-3 {
+    display: none;
+}
+
+.posicionamento-banner-2 h1 {
+    font-family: "Lato";
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+.posicionamento-banner-2 a{
+    margin-top: 15px;
+    font-family: "Lato";
+    color: black;
+    background-color: #EA7911;
+    padding: 5px;
+    width: 125px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 1700px) {
+    .container-grid{
+        width: 95vw;
+    }
+    
+}
+
+@media screen and (max-width: 1600px) {
+    
+    .conteudo-banner h1 {
+        font-size: 20px;
+    }
+    .conteudo-banner a{
+        margin-top: 10px;
+        padding: 5px;
+        width: 120px;
+        font-size: 15px;
+    }
+    .texto-ofertas{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 15px;
+        font-family: "Lato";
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+    .posicionamento-banner-2 h1 {
+        font-size: 20px;
+        margin-top: 45px;
+    }
+    
+    .posicionamento-banner-2 a{
+        margin-top: 10px;
+        padding: 5px;
+        width: 120px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    .banner{
+        height: 600px;
+    }
+
+    .cor-conteudo-ofertas{
+        height: 500px;
+    }
+    .conteudo-ofertas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .descriçao {
+        font-size: 10px;
+    }
+
+    .eletronicos-produto-1{
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+    .eletronicos-produto-2{
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+    .eletronicos-produto-3{
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .eletronicos-produto-4 {
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .eletronicos-produto-5 {
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .hardware-produto-1{
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+    .hardware-produto-2{
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+    .hardware-produto-3{
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+    .hardware-produto-4{
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+    
+    .hardware-produto-5{
+        width: 265px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .eletronicos-produto-1 img{
+        width: 180px;
+        height: 117px;
+    }
+    
+    .eletronicos-produto-2 img{
+        width: 180px;
+        height: 117px;
+    }
+    
+    .eletronicos-produto-3 img{
+        width: 180px;
+        height: 117px;
+    }
+    
+    .eletronicos-produto-4 img{
+        width: 180px;
+        height: 117px;
+    }
+    
+    .eletronicos-produto-5 img{
+        width: 150px;
+        height: 117px;
+    
+    }
+
+    .hardware-produto-1 img{
+        width: 150px;
+        height: 117px;
+    }
+    
+    .hardware-produto-2 img{
+        width: 173.7px;
+        height: 117px;
+    }
+    
+    .hardware-produto-3 img{
+        width: 180px;
+        height: 117px;
+    }
+    
+    .hardware-produto-4 img{
+        width: 180px;
+        height: 117px;
+    }
+    
+    .hardware-produto-5 img{
+        width: 180px;
+        height: 117px;
+    }
+
+    .eletronicos-preço-1 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-2 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-3 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-4 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-5 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-6 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-7 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-8 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-9 {
+        font-size: 10px;
+    }
+
+    .eletronicos-preço-10 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-1 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-2 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-3 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-4 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-5 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-6 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-7 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-8 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-9 {
+        font-size: 10px;
+    }
+
+    .hardware-preço-10 {
+        font-size: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 836px) {
+    .cor-conteudo-ofertas {
+        height: 700px;
+    }    
+}
+
+@media screen and (max-width: 750px) {
+
+    .posicionamento-banner{
+        justify-content: center;
+    }
+
+    .conteudo-banner {
+        display: none;
+        margin-top: 50px;
+    }
+
+    .conteudo-banner-2 h1 {
+        font-size: 17px;
+
+    }
+
+    .conteudo-banner-2 {
+        flex-direction: column;
+        display:flex;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+
+    .conteudo-banner-2 a {
+        margin-top: 15px;
+        padding: 5px;
+        width: 120px;
+        font-size: 15px;
+    }
+
+    .texto-ofertas {
+        font-size: 14px;
+        padding: 18px;
+    }
+
+    .posicionamento-banner-2 h1 {
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width: 583px) {
+
+    .conteudo-ofertas {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .texto-ofertas {
+        justify-content: center;
+    }
+
+    .cor-conteudo-ofertas {
+        height: 900px;
+    }
+
+    .descriçao {
+        font-size: 9px;
+    }
+
+    .eletronicos-preço-1 {
+        font-size: 9px;
+    }
+
+    .eletronicos-preço-2 {
+        font-size: 9px;
+    }
+    .eletronicos-preço-3 {
+        font-size: 9px;
+    }
+    .eletronicos-preço-4 {
+        font-size: 9px;
+    }
+    .eletronicos-preço-5 {
+        font-size: 9px;
+    }
+    .eletronicos-preço-6 {
+        font-size: 9px;
+    }
+    .eletronicos-preço-7 {
+        font-size: 9px;
+    }
+    .eletronicos-preço-8 {
+        font-size: 9px;
+    }
+    .eletronicos-preço-9 {
+        font-size: 9px;
+    }
+    .eletronicos-preço-10 {
+        font-size: 9px;
+    }
+
+    .eletronicos-produto-5 {
+        display: none;
+    }
+
+    .hardware-produto-5 {
+        display: none;
+    }
+
+    .eletronicos-produto-2 img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+
+    .posicionamento-banner-2 {
+        display: none;
+    }
+
+    .posicionamento-banner-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+    }
+
+    .pos-1 {
+        margin-top: 50px;
+    }
+    
+    .posicionamento-banner-3 h1 {
+        font-family: "Lato";
+        color: white;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+    
+    .posicionamento-banner-3 a{
+        margin-top: 15px;
+        font-family: "Lato";
+        color: black;
+        background-color: #EA7911;
+        padding: 5px;
+        width: 120px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+}
+

@@ -1,0 +1,139 @@
+.final {
+    background-color: #1E1C21;
+}
+
+.posicionamento-footer {
+    display: flex;
+    align-items: center;
+}
+
+.departamentos {
+    width: 149.09px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.institucional {
+    width: 204.5px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.pagamento {
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.cartoes {
+    width: 200px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cartoes img {
+    width: 78.33px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.midias-sociais {
+    width: 93px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.midias-sociais img {
+    width: 35px;
+    height: 30px;
+}
+
+.atendimento {
+    width: 188.83px;
+    height: 263.35px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.posicionamento-departamentos-eletronicos{
+    height: 501px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.posicionamento-departamentos-eletronicos h2{
+    font-family: "Lato";
+    font-size: 20px;
+    color: white;
+    font-weight: 900px;
+}
+
+.posicionamento-departamentos-eletronicos p{
+    font-family: "Lato";
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (max-width: 1700px) {
+    .container-grid{
+        width: 95vw;
+    }
+    
+}
+
+@media screen and (max-width: 1600px) {
+
+    .posicionamento-departamentos-eletronicos h2{
+        font-size: 15px;
+    }
+    
+    .posicionamento-departamentos-eletronicos p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+
+    .posicionamento-departamentos-eletronicos {
+        height: 800px;
+        flex-wrap: wrap;
+    }
+
+    .atendimento {
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (max-width: 583px) {
+
+    .posicionamento-departamentos-eletronicos {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .posicionamento-departamentos-eletronicos {
+        height: 1200px;
+    }
+
+    .atendimento {
+        height: 150px;
+        justify-content: flex-start;
+    }
+}

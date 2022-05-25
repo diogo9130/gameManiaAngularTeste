@@ -1,0 +1,66 @@
+main {
+    background-color: black;
+    padding: 100px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lato';
+    font-size: 15px;
+
+    color: white;
+}
+
+form {
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    font-family: 'Lato';
+    border-radius: 10px;
+
+    padding: 100px 0;
+
+    background-color: #1E1C21;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form input[type="submit"] {
+    width: 60%;
+    margin: auto;
+    background-color: #EA7911;
+    color: black;
+    font-weight: bold;
+}
+
+.campo-label {
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    text-indent: 5px;
+}
+
+input, button {
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        font-size: 12px;
+    }
+
+    input, button {
+        font-size: 12px;
+    }
+}
+
